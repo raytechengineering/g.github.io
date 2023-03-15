@@ -1,570 +1,541 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
 
-        <meta name="description" content="">
-        <meta name="author" content="Tooplate">
+     <title>RayDeli</title>
+<!-- 
 
-        <title>RayTech Engineering</title>
+Eatery Cafe Template 
 
-        <!-- CSS FILES -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-
-        <link href="css/bootstrap-icons.css" rel="stylesheet">
-
-        <link href="css/magnific-popup.css" rel="stylesheet">
-
-        <link href="css/tooplate-waso-strategy.css" rel="stylesheet">
-        
-<!--
-
-Tooplate 2130 Waso Strategy
-
-https://www.tooplate.com/view/2130-waso-strategy
-
-Free Bootstrap 5 HTML Template
+http://www.templatemo.com/tm-515-eatery
 
 -->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    </head>
-    
-    <body id="section_1">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/animate.css">
+     <link rel="stylesheet" href="css/owl.carousel.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="css/magnific-popup.css">
 
-        <header class="site-header">
-            <div class="container">
-                <div class="row align-items-center">
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/templatemo-style.css">
 
-                    <div class="col-lg-3 col-md-5 col-7">
-                        <p class="text-green mb-0">
-                            <i class="bi-clock site-header-icon me-2"></i>
-                            Mon-Fri 8:00-16:00
-                        </p>
-                    
-                    </div>
+</head>
+<body>
 
-                    <div class="col-lg-2 col-md-3 col-5">
-                        <p class="text-white mb-0">
-                            <a href="tel: 240-480-9600" class="text-green">
-                                <i class="ray"></i>
-                                +254722391936
-                            </a>
-                        </p>
-                    </div>
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
 
-                    <div class="col-lg-3 col-md-3 col-12 ms-auto">
-                        <ul class="social-icon">
-                            <li><a href="https://www.facebook.com/profile.php?id=100008508126831" class="social-icon-link bi-facebook"></a></li>
+               <span class="spinner-rotate"></span>
+               
+          </div>
+     </section>
 
-                            <li><a href="https://pinterest.com/tooplate" class="social-icon-link bi-pinterest"></a></li>
 
-                            <li><a href="https://twitter.com/minthu" class="social-icon-link bi-twitter"></a></li>
+     <!-- MENU -->
+     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+          <div class="container">
 
-                            <li><a href="https://www.youtube.com/watch?v=PZfgG_MFD9w&ab_channel=RayTechInventions%28Engineering%29" class="social-icon-link bi-youtube"></a></li>
-                        </ul>
-                    </div>
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
 
-                </div>
-            </div>
-        </header>
+                    <!-- lOGO TEXT HERE -->
+                    <a href="index.html" class="navbar-brand">Ray <span>.</span> Deli</a>
+               </div>
 
-        <nav class="navbar navbar-expand-lg bg-white shadow-lg">
-            <div class="container">
-
-                <a href="#" class="navbar-brand"><span class="text-danger">RAYTECH ENGINEERING LIMITED</span></a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_1"><small class="small-title"><strong class="text-warning">01</strong></small> Home</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_2"><small class="small-title"><strong class="text-warning">02</strong></small> About</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_3"><small class="small-title"><strong class="text-warning">03</strong></small> Services</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_4"><small class="small-title"><strong class="text-warning">04</strong></small>  Projects</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_5"><small class="small-title"><strong class="text-warning">05</strong></small> Contact</a>
-                        </li>
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-nav-first">
+                         <li><a href="#home" class="smoothScroll">Home</a></li>
+                         <li><a href="#about" class="smoothScroll">About</a></li>
+                         <li><a href="#team" class="smoothScroll">Chef</a></li>
+                         <li><a href="#menu" class="smoothScroll">Menu</a></li>
+                         <li><a href="#contact" class="smoothScroll">Contact</a></li>
                     </ul>
-                <div>
-                        
-            </div>
-        </nav>
 
-        <main>
+                    <ul class="nav navbar-nav navbar-right">
+                         <li><a href="#">Call Now! <i class="fa fa-phone"></i> 0722391936</a></li>
+                         <a href="#footer" class="section-btn">Reserve a table</a>
+                    </ul>
+               </div>
 
-            <section class="hero">
-                <div class="container-fluid h-100">
-                    <div class="row h-100">
+          </div>
+     </section>
 
-                        <div id="carouselExampleCaptions" class="carousel carousel-fade hero-carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="container position-relative h-100">
-                                        <div class="carousel-caption d-flex flex-column justify-content-center">
-                                            <small class="small-title">RayTech Engineering<strong class="text-warning">01/05</strong></small>
 
-                                            <h1>Watt are you waiting for? Our  <span class="text-warning">Engineers</span> can fix it</h1>
+     <!-- HOME -->
+     <section id="home" class="slider" data-stellar-background-ratio="0.5">
+          <div class="row">
 
-                                            <div class="d-flex align-items-center mt-4">
-                                                <a class="custom-btn btn custom-link" href="#section_2">Get Started</a>
-
-                                                <a class="popup-youtube custom-icon d-flex ms-4" href="https://www.youtube.com/watch?v=AYaHuZ4BB6Y">
-                                                    <i class="bi-play play-icon d-flex m-auto text-white"></i>
-                                                </a>
-                                            </div>
+                    <div class="owl-carousel owl-theme">
+                         <div class="item item-first">
+                              <div class="caption">
+                                   <div class="container">
+                                        <div class="col-md-8 col-sm-12">
+                                             <h3>Ray &amp; Deli</h3>
+                                             <h1>Our mission is to provide an unforgettable experience</h1>
+                                             <a href="#team" class="section-btn btn btn-default smoothScroll">Meet our chef</a>
                                         </div>
-                                    </div>
+                                   </div>
+                              </div>
+                         </div>
 
-                                    <div class="carousel-image-wrap">
-                                        <img src="images/nasty.jpg" class="img-fluid carousel-image" alt="">
-                                    </div>
-                                </div>
-
-                                <div class="carousel-item">
-                                    <div class="container position-relative h-100">
-                                        <div class="carousel-caption d-flex flex-column justify-content-center">
-                                            <small class="small-title">RayTech Project <strong class="text-warning">01/05</strong></small>
-
-                                            <h1>RayTech Inventions 2023 <span class="text-warning"></span></h1>
-
-                                            <div class="d-flex align-items-center mt-4">
-                                                <a class="custom-btn btn custom-link" href="#section_2">Explore Capabilities</a>
-
-                                                <a class="popup-youtube custom-icon d-flex ms-4" href="https://www.youtube.com/watch?v=VStvZjykQ00">
-                                                    <i class="bi-play play-icon d-flex m-auto text-white"></i>
-                                                </a>
-                                            </div>
+                         <div class="item item-second">
+                              <div class="caption">
+                                   <div class="container">
+                                        <div class="col-md-8 col-sm-12">
+                                             <h3>Your Perfect Breakfast</h3>
+                                             <h1>The best dinning quality can be here too!</h1>
+                                             <a href="#menu" class="section-btn btn btn-default smoothScroll">Discover menu</a>
                                         </div>
-                                    </div>
-                                    
-                                    <div class="carousel-image-wrap">
-                                        <img src="images/nasty.jpg" class="img-fluid carousel-image" alt="">
-                                    </div>
-                                </div>
+                                   </div>
+                              </div>
+                         </div>
 
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-                            </div>
-                        </div>
-
+                         <div class="item item-third">
+                              <div class="caption">
+                                   <div class="container">
+                                        <div class="col-md-8 col-sm-12">
+                                             <h3>New Restaurant in Town</h3>
+                                             <h1>Enjoy our special menus every Sunday and Friday</h1>
+                                             <a href="#contact" class="section-btn btn btn-default smoothScroll">Reservation</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
                     </div>
-                </div>
-            </section>
+
+          </div>
+     </section>
 
 
-            <section class="about section-padding" id="section_2">
-                <div class="container">
-                    <div class="row">
+     <!-- ABOUT -->
+     <section id="about" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
 
-                        <div class="col-lg-6 col-12 mb-5 mb-lg-0">
-                            <div class="about-image-wrap h-100">
-                                <img src="images/peter-jones-WZROBIlY8Rg-unsplash.jpg" class="img-fluid about-image" alt="">
+                    <div class="col-md-6 col-sm-12">
+                         <div class="about-info">
+                              <div class="section-title wow fadeInUp" data-wow-delay="0.2s">
+                                   <h4>Read our story</h4>
+                                   <h2>We've been Making The Delicious Foods Since 2021</h2>
+                              </div>
 
-                                <div class="about-image-info">
-                                    <h4 class="text-warning">Rymond Julius, CEO</h4>
-
-                                    <p class="text-white">An organization’s ability to learn, and translate that learning into action rapidly, is the ultimate competitive advantage.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-12 d-flex flex-column">
-                            <div class="about-thumb bg-white shadow-lg">
-                                
-                                <div class="about-info">
-                                    <small class="small-title">About <strong class="text-warning">02/05</strong></small>
-
-                                    <h2 class="mb-3">RayTech Engineering</h2>
-
-                                    <h5 class="mb-3">Creating Innovative Technology since 2022</h5>
-
-                                    <p>
-                                        An engineering services company that provides specialized consulting services to help clients bring products or technology to market. The specialization of engineering services will range depending on the project scope.</p>
-
-                                    <p>You may support a little PayPal donation  by visiting our <a href="https://www.tooplate.com/contact">contact page</a>. Thank you.</p>
-                                </div>
-                            </div>
-
-                            <div class="row h-100">
-                                <div class="col-lg-6 col-6">
-                                    <div class="about-thumb d-flex flex-column justify-content-center bg-danger mb-lg-0 h-100">
-                                        
-                                        <div class="about-info">
-                                            <h5 class="text-white mb-4">Feel Luxirious</h5>
-
-                                            <a class="custom-btn btn custom-bg-primary" href="#section_3">Join us</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6 col-6">
-                                    <div class="about-thumb d-flex flex-column justify-content-center bg-warning mb-lg-0 h-100">
-                                        
-                                        <div class="about-info">
-                                            <h5 class="text-white mb-4">How did you know about us?</h5>
-
-                                            <p class="text-white mb-0">ulitupata aje</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
+                              <div class="wow fadeInUp" data-wow-delay="0.4s">
+                                   <p>Fusce hendrerit malesuada lacinia. Donec semper semper sem vitae malesuada. Proin scelerisque risus et ipsum semper molestie sed in nisi. Ut rhoncus congue lectus, rhoncus venenatis leo malesuada id.</p>
+                                   <p>Sed elementum vel felis sed scelerisque. In arcu diam, sollicitudin eu nibh ac, posuere tristique magna. You can use this template for your cafe or restaurant website. Please tell your friends about <a href="https://plus.google.com/+templatemo" target="_parent">templatemo</a>. Thank you.</p>
+                              </div>
+                         </div>
                     </div>
-                </div>
-            </section>
 
-            <section class="services section-padding" id="section_3">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-10 col-12 text-center mx-auto mb-5">
-                            <small class="small-title">Services <strong class="text-warning">03/05</strong></small>
-
-                            <h2>INDUSTIRES WE SERVE
-                                OUR SERVICES</h2>
-
-                        </div>
-
-                        <div class="col-lg-6 col-12">
-                            <nav>
-                                <div class="nav nav-tabs flex-column align-items-baseline" id="nav-tab" role="tablist">
-                                    <button class="nav-link active" id="nav-business-tab" data-bs-toggle="tab" data-bs-target="#nav-business" type="button" role="tab" aria-controls="nav-business" aria-selected="true">
-                                        <h3>Energy & Power</h3>
-                                    
-
-                                        <span>1. Power line construction from 240V to 66KV with Kenya Power and Lightning Company being our main client in Kenya.
-
-                                            Overhead and Underground power reticulation systems.</span>
-
-                                            <span>2. Installation and maintenance of specialist petroleum equipment such as fuel pumps, flame proof and explosion proof fittings, etc.</span>
-                                    </button>
-
-                                    <button class="nav-link active" id="nav-strategy-tab" data-bs-toggle="tab" data-bs-target="#nav-strategy" type="button" role="tab" aria-controls="nav-strategy" aria-selected="false">
-                                        <h3>Installation & Lighting</h3>
-                                        
-                                        <span>1. Installation of electrical equipment such as generators, pumps, motors, heating equipment, etc.</span>
-
-                                        <span>2. Commercial and domestic lighting and power systems.Street lighting, garden/environmental lighting, flood lighting installations, etc.</span>
-                                    </button>
-
-                                    <button class="nav-link active" id="nav-video-tab" data-bs-toggle="tab" data-bs-target="#nav-video" type="button" role="tab" aria-controls="nav-video" aria-selected="false">
-                                        <h3>Manufacturing & HVAC systems</h3>
-                                        
-                                        <span>1. Installation of industrial, commercial and domestic equipment/machines, switch-gear and control systems.</span>
-                                        <span>2. Refrigeration and air conditioning systems ; Lighting, grounding and surge protection systems.Electrical and Compressed air systems.</span>
-                                    </button>
-                                </div>
-                            </nav>
-                        </div>
-
-                        <div class="col-lg-6 col-12">
-                            <div class="tab-content" id="nav-tabContent">
-                                <div class="tab-pane fade show active" id="nav-business" role="tabpanel" aria-labelledby="nav-intro-tab">
-                                    <img src="images/nasty.jpg" class="img-fluid" alt="">
-                                
-
-                                    <h5 class="nav-link active">SERVICE DELIVERY</h5>
-                                    
-
-                                    <p>RayTech Engineering Limited has a strong commitment to customer satisfaction and process excellence.
-                                        We also have a team of highly qualified engineers and trained technical personnel, modern tools and equipment and efficient quality management systems to deliver excellent services to our clients.
-                                        As a company we invest heavily in ensuring that we are up to date with all industry accreditation, and that our team of skilled engineers is trained to the best standards in order to design, install and maintain systems while ensuring that all our systems are fully compliant with current standards, legal, health and safety regulation</p>
-                                    
-
-                        
-                                </div>
-
-                                <div class="tab-pane fade show" id="nav-strategy" role="tabpanel" aria-labelledby="nav-strategy-tab">
-                                    <img src="images/services/startup-leader-drawing-flowchart-board-discussing-project.jpg" class="img-fluid" alt="">
-
-                                    <h5 class="mt-4 mb-2">Strategy Planning</h5>
-
-                                    <div class="row">
-                                        <div class="col-lg-6 col-12">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore</p>
-                                        </div>
-
-                                        <div class="col-lg-6 col-12">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dolore</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="tab-pane fade show" id="nav-video" role="tabpanel" aria-labelledby="nav-video-tab">
-                                    <img src="images/services/portrait-smiling-african-american-young-woman-holding-movie-production-blackboard.jpg" class="img-fluid" alt="">
-
-                                    <h5 class="mt-4 mb-2">Video Content</h5>
-
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore</p>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <section class="projects section-padding pb-0" id="section_4">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-lg-10 col-12 text-center mx-auto mb-5">
-                            <small class="small-title">Projects <strong class="text-warning">04/05</strong></small>
-
-                            <h2>Projects</h2>
-                        </div>
-
-                        <div class="col-lg-4 col-12">
-                            <div class="projects-thumb projects-thumb-small">
-                                <a href="project-detail.html">
-                                    <img src="images/nasty.jpg" class="img-fluid projects-image" alt="">
-                                    
-                                    <div class="projects-info">
-                                        <div class="projects-title-wrap">
-                                            <small class="projects-small-title">MasterTech College</small>
-
-                                            <h2 class="projects-title">MasterTech College Installation</h2>
-                                        </div>
-
-                                        <div class="projects-btn-wrap mt-4">
-                                            <span class="custom-btn btn">
-                                                <i class="bi-arrow-right"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-12">
-                            <div class="projects-thumb projects-thumb-small">
-                                <a href="project-detail.html">
-                                    <img src="images/nasty.jpg" class="img-fluid projects-image" alt="">
-                                    
-                                    <div class="projects-info">
-                                        <div class="projects-title-wrap">
-                                            <small class="projects-small-title">Kenya Power</small>
-
-                                            <h2 class="projects-title">KPLC rural transmission</h2>
-                                        </div>
-
-                                        <div class="projects-btn-wrap mt-4">
-                                            <span class="custom-btn btn" href="project-detail.html">
-                                                <i class="bi-arrow-right"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-12">
-                            <div class="projects-thumb projects-thumb-small">
-                                <a href="project-detail.html">
-                                    <img src="images/nasty.jpg" class="img-fluid projects-image" alt="">
-                                    
-                                    <div class="projects-info">
-                                        <div class="projects-title-wrap">
-                                            <small class="projects-small-title">Royal Homes</small>
-
-                                            <h2 class="projects-title">Royal Homes Installation</h2>
-                                        </div>
-
-                                        <div class="projects-btn-wrap mt-4">
-                                            <span class="custom-btn btn" href="project-detail.html">
-                                                <i class="bi-arrow-right"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-8 col-12">
-                            <div class="projects-thumb projects-thumb-large">
-                                <a href="project-detail.html">
-                                    <img src="images/nasty.jpg" class="img-fluid projects-image" alt="">
-                                    
-                                    <div class="projects-info">
-                                        <div class="projects-title-wrap">
-                                            <small class="projects-small-title">Solar Power</small>
-
-                                            <h2 class="projects-title">Installation of Home Solar Power 
-                                                Generation Equipment</h2>
-                                        </div>
-
-                                        <div class="projects-btn-wrap mt-4">
-                                            <span class="custom-btn btn" href="project-detail.html">
-                                                <i class="bi-arrow-right"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-12">
-                            <div class="projects-thumb projects-thumb-small">
-                                <a href="project-detail.html">
-                                    <img src="images/nasty.jpg" class="img-fluid projects-image" alt="">
-                                    
-                                    <div class="projects-info">
-                                        <div class="projects-title-wrap">
-                                            <small class="projects-small-title"> royal home Automation</small>
-
-                                            <h2 class="projects-title">Fingerprint Door Lock Installation</h2>
-                                        </div>
-
-                                        <div class="projects-btn-wrap mt-4">
-                                            <span class="custom-btn btn" href="project-detail.html">
-                                                <i class="bi-arrow-right"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <section class="contact" id="section_5">
-
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f9c10b" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-
-                <div class="contact-container-wrap">
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-lg-6 col-12">
-                                <form class="custom-form contact-form" action="" method="post" role="form">
-                                    <small class="small-title">Contact <strong class="text-white">05/05</strong></small>
-
-                                    <h2 class="mb-5">Say Hi to us</h2>
-
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6 col-12">                                    
-                                            <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required="">
-                                        </div>
-
-                                        <div class="col-lg-6 col-md-6 col-12">         
-                                            <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="your@company.com" required="">
-                                        </div>
-
-                                        <div class="col-12">
-                                            <textarea class="form-control" rows="7" id="message" name="message" placeholder="Message"></textarea>
-
-                                            <button type="submit" class="form-control">Submit</button>
-                                        </div>
-
-                                    </div>
-                                </form>
-                            </div>
-
-                            <div class="col-lg-6 col-12">
-                                <div class="contact-thumb">
-                                    
-                                    <div class="contact-info bg-white shadow-lg">
-                                        <h4 class="mb-4">Nairobi Kenya</h4>
-
-                                        <h4 class="mb-2">
-                                            <a href="tel: 240-480-9600">
-                                                <i class="bi-telephone contact-icon me-2"></i>
-                                                0722391936
-                                            </a>
-                                        </h4>
-
-                                        <h5>
-                                            <a href="mailto:info@company.com" class="footer-link">
-                                                <i class="bi-envelope-fill contact-icon me-2"></i>
-                                                raytech@gmail.com
-                                            </a>
-                                        </h5>
-                                        
-                                        <!-- Copy "embed a map" HTML code from any point on Google Maps -> Share Link  -->
-                                        
-                                        <iframe class="google-map mt-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4063.103580426464!2d-83.0264337484065!3d42.33402597908653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b2cce05ddf4f1%3A0xcc0559eb3fda00c9!2sDetroit%20Riverwalk%2C%20Detroit%2C%20MI!5e1!3m2!1sen!2sus!4v1657814406289!5m2!1sen!2sus" width="100%" height="300" allowfullscreen="" loading="lazy"></iframe>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-        </main>
-
-        <footer class="site-footer">
-            <div class="container">
-                <div class="row">
-                        
-                    <div class="col-lg-6 col-12">
-                        <div class="site-footer-wrap d-flex align-items-center">
-                            <p class="copyright-text mb-0 me-4">Copyright © 2023 Raytech Engineering Co., Ltd.</p>
-
-                            <ul class="social-icon">
-                                <li><a href="https://facebook.com/tooplate" class="social-icon-link bi-facebook"></a></li>
-
-                                <li><a href="https://pinterest.com/tooplate" class="social-icon-link bi-pinterest"></a></li>
-    
-                                <li><a href="https://twitter.com/minthu" class="social-icon-link bi-twitter"></a></li>
-    
-                                <li><a href="https://www.youtube.com/tooplate" class="social-icon-link bi-youtube"></a></li>
-                            </ul>
-                            
-                        </div>
+                    <div class="col-md-6 col-sm-12">
+                         <div class="wow fadeInUp about-image" data-wow-delay="0.6s">
+                              <img src="images/about-image.jpg" class="img-responsive" alt="">
+                         </div>
                     </div>
                     
-                    <div class="col-lg-6 col-12">
-                    	<p class="copyright-text mb-0 me-4">Raytech Engineering <a href="https://www.youtube.com/watch?v=PZfgG_MFD9w&ab_channel=RayTechInventions%28Engineering%29"_blank">YouTube</a></p>
+               </div>
+          </div>
+     </section>
+
+
+     <!-- TEAM -->
+     <section id="team" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+                              <h2>Meet our chefs</h2>
+                              <h4>They are nice &amp; friendly</h4>
+                         </div>
                     </div>
 
-                </div>
-            </div>
-        </footer>
+                    <div class="col-md-4 col-sm-4">
+                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
+                              <img src="images/team-image1.jpg" class="img-responsive" alt="">
+                                   <div class="team-hover">
+                                        <div class="team-item">
+                                             <h4>Duis vel lacus id magna mattis vehicula</h4> 
+                                             <ul class="social-icon">
+                                                  <li><a href="#" class="fa fa-linkedin-square"></a></li>
+                                                  <li><a href="#" class="fa fa-envelope-o"></a></li>
+                                             </ul>
+                                        </div>
+                                   </div>
+                         </div>
+                         <div class="team-info">
+                              <h3>New Catherine</h3>
+                              <p>Kitchen Officer</p>
+                         </div>
+                    </div>
 
-        <!-- JAVASCRIPT FILES -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.sticky.js"></script>
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <script src="js/magnific-popup-options.js"></script>
-        <script src="js/click-scroll.js"></script>
-        <script src="js/custom.js"></script>
-<img src="ray.html" alt="">
-    </body>
+                    <div class="col-md-4 col-sm-4">
+                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
+                              <img src="images/team-image2.jpg" class="img-responsive" alt="">
+                                   <div class="team-hover">
+                                        <div class="team-item">
+                                             <h4>Cras suscipit neque quis odio feugiat</h4>
+                                             <ul class="social-icon">
+                                                  <li><a href="#" class="fa fa-instagram"></a></li>
+                                                  <li><a href="#" class="fa fa-flickr"></a></li>
+                                             </ul>
+                                        </div>
+                                   </div>
+                         </div>
+                         <div class="team-info">
+                              <h3>Lindsay Perlen</h3>
+                              <p>Owner &amp; Manager</p>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                              <img src="images/team-image3.jpg" class="img-responsive" alt="">
+                                   <div class="team-hover">
+                                        <div class="team-item">
+                                             <h4>Etiam auctor enim tristique faucibus</h4>
+                                             <ul class="social-icon">
+                                                  <li><a href="#" class="fa fa-github"></a></li>
+                                                  <li><a href="#" class="fa fa-google"></a></li>
+                                             </ul>
+                                        </div>
+                                   </div>
+                         </div>
+                         <div class="team-info">
+                              <h3>Isabella Grace</h3>
+                              <p>Pizza Specialist</p>
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </section>
+
+
+     <!-- MENU-->
+     <section id="menu" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+                              <h2>Our Menus</h2>
+                              <h4>Tea Time &amp; Dining</h4>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <!-- MENU THUMB -->
+                         <div class="menu-thumb">
+                              <a href="images/menu-image1.jpg" class="image-popup" title="American Breakfast">
+                                   <img src="images/menu-image1.jpg" class="img-responsive" alt="">
+
+                                   <div class="menu-info">
+                                        <div class="menu-item">
+                                             <h3>American Breakfast</h3>
+                                             <p>Tomato / Eggs / Sausage</p>
+                                        </div>
+                                        <div class="menu-price">
+                                             <span>$25</span>
+                                        </div>
+                                   </div>
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <!-- MENU THUMB -->
+                         <div class="menu-thumb">
+                              <a href="images/menu-image2.jpg" class="image-popup" title="Self-made Salad">
+                                   <img src="images/menu-image2.jpg" class="img-responsive" alt="">
+
+                                   <div class="menu-info">
+                                        <div class="menu-item">
+                                             <h3>Self-made Salad</h3>
+                                             <p>Green / Fruits / Healthy</p>
+                                        </div>
+                                        <div class="menu-price">
+                                             <span>$18</span>
+                                        </div>
+                                   </div>
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <!-- MENU THUMB -->
+                         <div class="menu-thumb">
+                              <a href="images/menu-image3.jpg" class="image-popup" title="Chinese Noodle">
+                                   <img src="images/menu-image3.jpg" class="img-responsive" alt="">
+
+                                   <div class="menu-info">
+                                        <div class="menu-item">
+                                             <h3>Chinese Noodle</h3>
+                                             <p>Pepper / Chicken / Vegetables</p>
+                                        </div>
+                                        <div class="menu-price">
+                                             <span>$34</span>
+                                        </div>
+                                   </div>
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <!-- MENU THUMB -->
+                         <div class="menu-thumb">
+                              <a href="images/menu-image4.jpg" class="image-popup" title="Rice Soup">
+                                   <img src="images/menu-image4.jpg" class="img-responsive" alt="">
+
+                                   <div class="menu-info">
+                                        <div class="menu-item">
+                                             <h3>Rice Soup</h3>
+                                             <p>Green / Chicken</p>
+                                        </div>
+                                        <div class="menu-price">
+                                             <span>$28</span>
+                                        </div>
+                                   </div>
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <!-- MENU THUMB -->
+                         <div class="menu-thumb">
+                              <a href="images/menu-image5.jpg" class="image-popup" title="Project title">
+                                   <img src="images/menu-image5.jpg" class="img-responsive" alt="">
+
+                                   <div class="menu-info">
+                                        <div class="menu-item">
+                                             <h3>Deli Burger</h3>
+                                             <p>Beef / Fried Potatoes</p>
+                                        </div>
+                                        <div class="menu-price">
+                                             <span>$46</span>
+                                        </div>
+                                   </div>
+                              </a>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                         <!-- MENU THUMB -->
+                         <div class="menu-thumb">
+                              <a href="images/menu-image6.jpg" class="image-popup" title="Project title">
+                                   <img src="images/menu-image6.jpg" class="img-responsive" alt="">
+
+                                   <div class="menu-info">
+                                        <div class="menu-item">
+                                             <h3>Big Flat Fried</h3>
+                                             <p>Pepper / Crispy</p>
+                                        </div>
+                                        <div class="menu-price">
+                                             <span>$30</span>
+                                        </div>
+                                   </div>
+                              </a>
+                         </div>
+                    </div>
+
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- TESTIMONIAL -->
+     <section id="testimonial" data-stellar-background-ratio="0.5">
+          <div class="overlay"></div>
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+                              <h2>Testimonials</h2>
+                         </div>
+                    </div>  
+
+                    <div class="col-md-offset-2 col-md-8 col-sm-12">
+                         <div class="owl-carousel owl-theme">
+                              <div class="item">
+                                   <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum ullamcorper nulla non.</p>
+                                        <div class="tst-author">
+                                             <h4>Digital Carlson</h4>
+                                             <span>Pharetra quam sit amet</span>
+                                        </div>
+                              </div>
+
+                              <div class="item">
+                                   <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed vestibulum orci quam.</p>
+                                        <div class="tst-author">
+                                             <h4>Johnny Stephen</h4>
+                                             <span>Magna nisi porta ligula</span>
+                                        </div>
+                              </div>
+
+                              <div class="item">
+                                   <p>Vivamus aliquet felis eu diam ultricies congue. Morbi porta lorem nec consectetur porta quis dui elit habitant morbi.</p>
+                                        <div class="tst-author">
+                                             <h4>Jessie White</h4>
+                                             <span>Vitae lacinia augue urna quis</span>
+                                        </div>
+                              </div>
+
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>  
+
+
+     <!-- CONTACT -->
+     <section id="contact" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+	<!-- How to change your own map point
+            1. Go to Google Maps
+            2. Click on your location point
+            3. Click "Share" and choose "Embed map" tab
+            4. Copy only URL and paste it within the src="" field below
+	-->
+                    <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.4s">
+                         <div id="google-map">
+                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.3030413476204!2d100.5641230193719!3d13.757206847615207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf51ce6427b7918fc!2sG+Tower!5e0!3m2!1sen!2sth!4v1510722015945" allowfullscreen></iframe>
+                         </div>
+                    </div>    
+
+                    <div class="col-md-6 col-sm-12">
+
+                         <div class="col-md-12 col-sm-12">
+                              <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+                                   <h2>Contact Us</h2>
+                              </div>
+                         </div>
+
+                         <!-- CONTACT FORM -->
+                         <form action="#" method="post" class="wow fadeInUp" id="contact-form" role="form" data-wow-delay="0.8s">
+
+                              <!-- IF MAIL SENT SUCCESSFUL  // connect this with custom JS -->
+                              <h6 class="text-success">Your message has been sent successfully.</h6>
+                              
+                              <!-- IF MAIL NOT SENT -->
+                              <h6 class="text-danger">E-mail must be valid and message must be longer than 1 character.</h6>
+
+                              <div class="col-md-6 col-sm-6">
+                                   <input type="text" class="form-control" id="cf-name" name="name" placeholder="Full name">
+                              </div>
+
+                              <div class="col-md-6 col-sm-6">
+                                   <input type="email" class="form-control" id="cf-email" name="email" placeholder="Email address">
+                              </div>
+
+                              <div class="col-md-12 col-sm-12">
+                                   <input type="text" class="form-control" id="cf-subject" name="subject" placeholder="Subject">
+
+                                   <textarea class="form-control" rows="6" id="cf-message" name="message" placeholder="Tell about your project"></textarea>
+
+                                   <button type="submit" class="form-control" id="cf-submit" name="submit">Send Message</button>
+                              </div>
+                         </form>
+                    </div>
+
+               </div>
+          </div>
+     </section>          
+
+
+     <!-- FOOTER -->
+     <footer id="footer" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-3 col-sm-8">
+                         <div class="footer-info">
+                              <div class="section-title">
+                                   <h2 class="wow fadeInUp" data-wow-delay="0.2s">Find us</h2>
+                              </div>
+                              <address class="wow fadeInUp" data-wow-delay="0.4s">
+                                   <p>123 nulla a cursus rhoncus,<br> augue sem viverra 10870<br>id ultricies sapien</p>
+                              </address>
+                         </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-8">
+                         <div class="footer-info">
+                              <div class="section-title">
+                                   <h2 class="wow fadeInUp" data-wow-delay="0.2s">Reservation</h2>
+                              </div>
+                              <address class="wow fadeInUp" data-wow-delay="0.4s">
+                                   <p>090-080-0650 | 090-070-0430</p>
+                                   <p><a href="mailto:info@company.com">info@company.com</a></p>
+                                   <p>LINE: eatery247 </p>
+                              </address>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-8">
+                         <div class="footer-info footer-open-hour">
+                              <div class="section-title">
+                                   <h2 class="wow fadeInUp" data-wow-delay="0.2s">Open Hours</h2>
+                              </div>
+                              <div class="wow fadeInUp" data-wow-delay="0.4s">
+                                   <p>Monday: Closed</p>
+                                   <div>
+                                        <strong>Tuesday to Friday</strong>
+                                        <p>7:00 AM - 9:00 PM</p>
+                                   </div>
+                                   <div>
+                                        <strong>Saturday - Sunday</strong>
+                                        <p>11:00 AM - 10:00 PM</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-4">
+                         <ul class="wow fadeInUp social-icon" data-wow-delay="0.4s">
+                              <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                              <li><a href="#" class="fa fa-twitter"></a></li>
+                              <li><a href="#" class="fa fa-instagram"></a></li>
+                              <li><a href="#" class="fa fa-google"></a></li>
+                         </ul>
+
+                         <div class="wow fadeInUp copyright-text" data-wow-delay="0.8s"> 
+                              <p><br>Copyright &copy; 2018 <br>Your Company Name 
+                              
+                              <br><br>Design: <a rel="nofollow" href="http://templatemo.com" target="_parent">TemplateMo</a></p>
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+
+
+     <!-- SCRIPTS -->
+     <script src="js/jquery.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/jquery.stellar.min.js"></script>
+     <script src="js/wow.min.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/jquery.magnific-popup.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/custom.js"></script>
+
+</body>
 </html>
